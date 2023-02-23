@@ -1,0 +1,104 @@
+* {
+    background-color: rgb(21, 21, 27);
+    color:rgb(6, 194, 194);
+}
+
+header{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+
+.header {
+    color: black;
+    font-size: 30px;
+    background-color: rgb(7, 156, 156);
+    height: 30px;
+    display: grid;
+    place-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom: 2px solid white;
+}
+
+h1 {
+    background-color: rgb(91, 5, 141);
+    padding: 20px;
+    width: 31%;
+    border: 5px white solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(57, 3, 88);
+    transition: all ease 300ms;
+    margin-left: 35px;
+}
+
+h1:hover {
+    transform: scale(115%);
+}
+
+img {
+    width: 20%;
+    height: 10%;
+    margin-top: 20px;
+    border: 5px white solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(57, 3, 88);
+    transition: all ease 300ms;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+img:hover {
+    transform: scale(115%);
+}
+
+a {
+    text-decoration: none;
+    transition: all ease 300ms;
+    background-color: rgb(43, 43, 54);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    border: white 2px solid;
+    border-radius: 7px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(43, 43, 54);
+}
+
+li {
+    background-color: rgb(43, 43, 54);
+    transition: all ease 300ms;
+}
+
+li:hover {
+    color: darkorchid;
+}
+
+footer {
+    font-size: 20px;
+    background-color: rgb(43, 43, 54);
+    border-top: white solid 3px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding-bottom: 5px;
+    display: grid;
+    place-items: center;
+}
+
+h4 {
+    background-color: rgb(43, 43, 54);
+}
