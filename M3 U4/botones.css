@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+}
+
+#cuad1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 185, 145);
+    transition: all ease 300ms;
+}
+
+#cuad1:active {
+    scale: 80%;
+}
+
+#cuad2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 126, 126);
+    transition: all ease 300ms;
+}
+
+#cuad2:active {
+    scale: 80%;
+}
+
+#cuad3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(38, 0, 82);
+    transition: all ease 300ms;
+}
+
+#cuad3:active {
+    scale: 80%;
+}
