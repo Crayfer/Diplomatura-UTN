@@ -1,0 +1,105 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(24, 18, 46);
+}
+
+p {
+  color:rgb(16, 194, 185);
+}
+
+header {
+  display: inline-flexbox;
+  background-color: aliceblue;
+}
+
+header h1 {
+  color: rgb(16, 194, 185);
+  float: left;
+}
+
+header .container {
+  float: right;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-size: 17px;
+  font-weight: bold;
+  height: 20px;
+  width: 70px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+a:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+.formulario {
+  background-color: rgb(24, 18, 46);
+}
+
+.formulario p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.formulario button {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  width: 70px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.formulario button:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+.form__input{
+  font-family: inherit;
+  background-color: transparent;
+  color: grey;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid darkcyan;
+  margin: 5px;
+  margin-left: 67px;
+}
+
+.form__label{
+  color: rgb(189, 189, 189);
+  position: absolute;
+  left: 67px;
+  margin-top: 5px;
+}
+
+.container2 {
+  clear: both;
+  background-color: black;
+  
+}
+
+.container2 a {
+  margin-left: 30px;
+  color: black;
+}
+
+h2 {
+  color: rgb(16, 194, 185);
+}
